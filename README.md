@@ -1,8 +1,8 @@
-Add flake toinputs:
+Add flake to inputs:
 
 ```nix
 inputs.helium = {
-  url = "github:bezydeynost/helium-browser-nix-flake";
+  url = "github:bezydeynost/helium";
   inputs.nixpkgs.follows = "nixpkgs";
 };
 ```
